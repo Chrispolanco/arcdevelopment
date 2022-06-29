@@ -1,9 +1,10 @@
 import React from 'react'; 
+import Header from './ui/Header';
 
 function App() {
   return (
     <div className="App">
-      Welcome to the world of tomorrow!!
+      <Header/>
     </div>
   );
 }
